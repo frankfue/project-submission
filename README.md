@@ -79,30 +79,6 @@ cd my-web-app
 2. Project Structure
 The project is organized with the following directory structure for better readability and ease of use:
 
-plaintext
-my-web-app/
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   ├── com/
-│   │   │   │   └── example/
-│   │   │   │       └── mywebapp/
-│   │   │   │           ├── MyWebAppApplication.java
-│   │   │   │           ├── controller/
-│   │   │   │           │   └── WebController.java
-│   │   │   │           ├── MyWebAppApplicationTests.java
-│   │   │   │           └── ... (other classes as needed)
-│   │   ├── resources/
-│   │   │   ├── static/
-│   │   │   │   └── js/ (JavaScript files)
-│   │   │   ├── templates/
-│   │   │   │   ├── index.html
-│   │   │   │   ├── about-me.html
-│   │   │   │   ├── blog.html
-│   │   │   │   └── ... (other Thymeleaf templates)
-│   │   └── application.properties (Spring Boot configuration file)
-├── target/ (compiled classes and artifacts)
-└── .gitignore
 Java Files:
 
 MyWebAppApplication.java – Main entry point for the application.
